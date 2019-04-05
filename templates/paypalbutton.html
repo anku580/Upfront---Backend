@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>button</title>
+</head>
+<body>
+<p>paypal button will be integrated here
+</p>
+<html>
+    <head>
+        <title>Merchant Check Out Page</title>
+    </head>
+    <body>
+        <center><h1>Please do not refresh this page...</h1></center>
+<h1>Merchant Check Out Page</h1></br>
+<form method="post" action="https://securegw-stage.paytm.in/theia/processTransaction" name="f1">
+<input type="hidden" name="MID"value="HYqgIk22213857160559">
+<input type="hidden" name="ORDER_ID"value="211">
+<input type="hidden" name="TXN_AMOUNT"value="10.00">
+<input type="hidden" name="CUST_ID"value="cust1">
+<input type="hidden" name="INDUSTRY_TYPE_ID"value="Retail">
+<input type="hidden" name="WEBSITE"value="WEBSTAGING">
+<input type="hidden" name="CHANNEL_ID"value="WEB">
+<input type="hidden" name="CALLBACK_URL"value="http://127.0.0.1:8000/orders/response/">
+<input type="hidden" name="CHECKSUMHASH"value="XQPAW2KS2JsMobgFvXoEHZPnpAfLDw6OlhQBATQzp8RSEb5ke+bB58Pbb2nrpTo0cLf0coSYCbZ92tWL9mx1UrvkIYd5jIpDmfB9cxjM9Jg=">
+<script type="text/javascript">
+document.f1.submit();
+</script>
+</form>
+  
+</body>
+</html>
